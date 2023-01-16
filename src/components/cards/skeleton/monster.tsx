@@ -4,6 +4,6 @@ interface MonsterCardProps {
   name: string;
 }
 
-export const MonsterCard = component$((props: MonsterCardProps) => {
+export const MonsterSkeletonCard = component$((props: MonsterCardProps) => {
   return <div></div>
 });

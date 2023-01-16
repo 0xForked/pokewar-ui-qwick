@@ -4,6 +4,6 @@ interface BattleCardProps {
   name: string;
 }
 
-export const BattleCard = component$((props: BattleCardProps) => {
+export const BattleItemCard = component$((props: BattleCardProps) => {
   return <div></div>
 });
