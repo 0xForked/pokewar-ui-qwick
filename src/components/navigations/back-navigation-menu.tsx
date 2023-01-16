@@ -6,7 +6,7 @@ interface BackNavigationProps {
 
 export const BackNavigationMenu = component$((props: BackNavigationProps) => {
   return <div class="flex flex-row w-full mb-8 items-center">
-    <a href="/" class="rounded-full p-2 bg-gray-50 hover:bg-gray-200">
+    <a href="/" class="rounded-full p-2 bg-gray-100 dark:bg-gray-800">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none" viewBox="0 0 24 24"
@@ -21,6 +21,6 @@ export const BackNavigationMenu = component$((props: BackNavigationProps) => {
         />
       </svg>
     </a>
-    <h5 class="text-lg font-bold text-black ml-4">{props.title}</h5>
+    <h5 class="text-lg font-bold ml-4">{props.title}</h5>
   </div>
 });

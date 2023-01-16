@@ -4,7 +4,7 @@ import { BackNavigationMenu } from '~/components/navigations/back-navigation-men
 
 export default component$(() => {
   return (
-    <div class="flex flex-col p-12 w-full">
+    <div class="flex flex-col p-12 w-screen h-screen">
       <BackNavigationMenu title="Battles" />
       Battles
     </div>

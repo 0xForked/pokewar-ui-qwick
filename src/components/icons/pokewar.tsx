@@ -1,7 +1,7 @@
 export const PokewarLogo = () => (
  <div class="flex flex-row items-center gap-2">
   <img
-    class="w-20 h-20"
+    class="w-20 h-20 rounded-full bg-white"
     src="/pokemon.png"
     alt="logo"
   ></img>
