@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Pocket Monster Battleroyale",
+  "short_name": "Pokewar",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Pokewar UI (Pocket Monster Battleroyale User Interface) for Web"
+}
