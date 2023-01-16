@@ -1,4 +1,4 @@
-export const MainNavigationMenu = () => (
+export const HomeNavigationMenu = () => (
 <div class="flex flex-row gap-6 mt-8">
   <a href="/monsters" class="font-bold ml-1 my-4 cursor-pointer tracking-tighter text-black border-b-2 border-red-200 hover:border-red-400 dark:text-gray-300  flex items-center gap-1">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">

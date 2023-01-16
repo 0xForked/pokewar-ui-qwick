@@ -1,6 +1,6 @@
 import { component$} from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
-import { BackNavigationMenu } from '~/components/navigation/back-navigation-menu';
+import { BackNavigationMenu } from '~/components/navigations/back-navigation-menu';
 
 export default component$(() => {
   return (

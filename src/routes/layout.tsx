@@ -1,5 +1,5 @@
 import { component$, Slot } from '@builder.io/qwik';
-import { FooterNavigationMenu } from '~/components/navigation/footer-navigation-menu';
+import { FooterNavigationMenu } from '~/components/navigations/footer-navigation-menu';
 
 export default component$(() => {
   return (
